@@ -9,4 +9,17 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-image: center;
+  background-size: cover;
+  h1, p {
+    color: white;
+  }
+}
+.nav-item-active {
+  text-underline-position: hover;
+}
 // Import partials here
+@import "footer"
