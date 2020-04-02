@@ -14,9 +14,32 @@
   background-repeat: no-repeat;
   background-image: center;
   background-size: cover;
-  h1, p {
+  text-align: center;
+  h1 {
+    color: white;
+    font-family: 'Liu Jian Mao Cao', cursive;
+  }
+  p {
     color: white;
   }
+}
+.row {
+  border-bottom: solid 1px grey;
+}
+.container {
+  h2 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+  }
+  h5 {
+    font-size: medium;
+  }
+  .card {
+    padding-bottom: 10 px;
+    padding-top: 10 px;
+  }
+.col-sm-8 {
+  border-left: solid 1px grey;
+}
 }
 .nav-item-active {
   text-underline-position: hover;
